@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    color: #637282;
+    overflow-x: hidden;
+    font-weight: normal;
+    letter-spacing: -.3px;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.fixed-top{
+    height: 12%;
+    background-color: #ffff;
+}
+
+.logoUv{
+    margin-top: 2%;
+    padding: 5%;
+
+    img{
+        width: 95%;
+        height: 100px;
+        margin-left:5%;
+    }
+}
+
+.nav{
+    margin-left: 40%;
+
+    a{
+     color: #023047;
+     font-size: 13px;
+    }
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,60%);
+    padding: 5%;
+    margin-top: 10%;
+
+    img{
+      margin-top: -13%;
+    }
+}
+
+.presentacion{
+    margin-top: 4%;
+    padding: 5%;
+    text-align: justify;
+
+    p{
+      margin-top: 5%;
+    }
+}
+
+.activities{
+    background-color: rgb(248, 248, 248);
+    padding-top: 5%;
+
+    .activity{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        padding: 5%;
+        margin-top: -10%;
+    }
+
+    img{
+        width: 80%;
+        height: 350px;
+    }
+}
+
+
+.description{
+    margin-top: 15%;
+    padding: 5%;
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+}
+
+.tech{
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+.article{ 
+    text-align: center;
+}
+
+.card-body img{
+    margin-left: 20%;
+}
+
+.tecnologias{
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    padding-top: 2%;
+    margin-left: 5%;
+}
+
+
+.oportunidades{
+    padding: 2%;
+    justify-items: center;
+
+    .oportunidades__descripcion{
+        display: grid;
+        grid-template-columns: repeat(2,44%);
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+
+    li{
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}
+
+.eventos__proximos{
+    padding-left: 10%;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.team{
+    margin: 5%;
+    padding: 2%;
+    height: 20%;
+
+    .tarjetas{
+        display: grid;
+        grid-template-columns: repeat(5,28%);
+        margin-left: -5%;
+        width: 80%; 
+    }
+}
+
+.card{
+    border-radius: 2%;
+    margin-top: 10%;
+    height: 76%;
+
+    img{
+        height: 50%;
+    }
+}
+
+.footer{
+    margin-top: -5%;
+
+    .logo__footer{
+        width: 60%;
+    }
+
+    li{
+        list-style: none; 
+    }
+
+    a{
+        color: #637282; 
+    }
+
+    a:hover{
+        color: black;
+        line-height: 0;
+    }
+}
+
+.social-list__inline{
+    display: grid;
+    grid-template-columns: repeat(3, 10%);
+    margin-top: 2%;
+
+    img{
+        width: 70%;  
+    }
+}
