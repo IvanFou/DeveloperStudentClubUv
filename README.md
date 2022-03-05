@@ -17,3 +17,6 @@ llevado acabo en Septiembre y funciono de igual de prueba para enseñar a utiliz
 
 No se requiere alguna instalacion o algo por el estilo puesto que es lo elemental de un sitio web, de igual modo se hizo el uso de la herramienta Netlify 
 para desplegar nuestro sitio
+
+
+⭐ hecho por: Ivan Garcia
